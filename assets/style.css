@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+footer {
+  background-size: cover;
+  background-color: #363434;
+}
+.socialmedia {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+.socialmedia i {
+  font-size: 12px;
+  display: inline-flex;
+  justify-content: center;
+  justify-self: center;
+  margin-right: 10px;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  border-radius: 1px;
+  padding-top: 4px;
+}
+.newsletter {
+  color: #fff;
+  display: grid;
+  justify-content: center;
+  margin-top: 20px;
+}
+.newsletter p {
+  margin-top: 5px;
+  text-align: center;
+}
+.newsletter input {
+  margin-left: 5px;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+}
+.newsletter .btn {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 80%;
+  justify-content: center;
+}
+.email {
+  display: none;
+}
+.note {
+  margin-top: 10px;
+  color: #fff;
+  text-align: center;
+}
+.links {
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  justify-content: center;
+}
+.links ul{
+  margin-top: 20px;
+  padding-right: 100px;
+}
+.links li{
+  list-style-type: none;
+}
+.links li a {
+  color: #fff;
+  text-decoration: none;
+}
+.copyright {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+}
+.bootcamp{
+  margin-left: 20px;
+}
+
+@media (min-width: 1200px) { 
+  .links {
+    display: flex;
+  }
+  .newsletter {
+    display: flex;
+    justify-content: center;
+  }
+  .newsletter p {
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+  .newsletter input {
+    margin-left: 5px;
+    width: 40%;
+  }
+  .newsletter .btn {
+    margin-left: 10px;
+    margin-top: -2px;
+    height: 30%;
+  }
+  .email {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+  }
+}
+
+
